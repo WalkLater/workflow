@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-19T06:16:59.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="gCEB16cmKoaj2JHoUup-" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T06:34:02.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="XQHoSb_o8Eu4WIaTVyfO" version="24.0.7" type="github">
   <diagram name="第 1 页" id="n2B5yL4K1JaY0Z_J82ZU">
     <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,6 +36,75 @@
         </mxCell>
         <mxCell id="IkZhBHOxt636drZOpqKK-79" value="八叉树建立" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="135" width="210" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IkZhBHOxt636drZOpqKK-79" source="IkZhBHOxt636drZOpqKK-89" target="IkZhBHOxt636drZOpqKK-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-89" value="计算八叉树尺寸" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-79">
+          <mxGeometry x="55" y="75" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IkZhBHOxt636drZOpqKK-79" source="IkZhBHOxt636drZOpqKK-90" target="IkZhBHOxt636drZOpqKK-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-90" value="建立八叉树根节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-79">
+          <mxGeometry x="55" y="185" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IkZhBHOxt636drZOpqKK-79" source="IkZhBHOxt636drZOpqKK-91" target="IkZhBHOxt636drZOpqKK-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-91" value="细分子节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-79">
+          <mxGeometry x="55" y="295" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IkZhBHOxt636drZOpqKK-79" source="IkZhBHOxt636drZOpqKK-94" target="IkZhBHOxt636drZOpqKK-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="413" />
+              <mxPoint x="30" y="275" />
+              <mxPoint x="105" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-94" value="满足最小条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-79">
+          <mxGeometry x="47.5" y="385" width="115" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-97" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IkZhBHOxt636drZOpqKK-79">
+          <mxGeometry x="20" y="375" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-98" value="遍历检测接触面" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="135" width="210" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IkZhBHOxt636drZOpqKK-98" source="IkZhBHOxt636drZOpqKK-100" target="IkZhBHOxt636drZOpqKK-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-100" value="计算八叉树尺寸" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-98">
+          <mxGeometry x="55" y="75" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IkZhBHOxt636drZOpqKK-98" source="IkZhBHOxt636drZOpqKK-102" target="IkZhBHOxt636drZOpqKK-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-102" value="建立八叉树根节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-98">
+          <mxGeometry x="55" y="185" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IkZhBHOxt636drZOpqKK-98" source="IkZhBHOxt636drZOpqKK-104" target="IkZhBHOxt636drZOpqKK-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-104" value="细分子节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-98">
+          <mxGeometry x="55" y="295" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IkZhBHOxt636drZOpqKK-98" source="IkZhBHOxt636drZOpqKK-106" target="IkZhBHOxt636drZOpqKK-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="413" />
+              <mxPoint x="30" y="275" />
+              <mxPoint x="105" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-106" value="满足最小条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IkZhBHOxt636drZOpqKK-98">
+          <mxGeometry x="47.5" y="385" width="115" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="IkZhBHOxt636drZOpqKK-107" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="IkZhBHOxt636drZOpqKK-98">
+          <mxGeometry x="20" y="375" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
