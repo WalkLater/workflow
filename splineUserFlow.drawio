@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T01:56:45.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.2.3" etag="lkEcMHG9fIGoXF9tEkCO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T02:08:34.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="cZ2RASj3stsPoHV95nOp" version="24.2.3" type="github">
   <diagram name="第 1 页" id="mYQJcJAnMv660zFbzMM6">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-2" target="N-VXdCK7WpnAZVzeiWxV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-2" value="用户输入：&lt;div&gt;水密、不含脏几何、分片的NURBS曲面&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-3" target="N-VXdCK7WpnAZVzeiWxV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-3" value="水密、不含脏几何、分片的NURBS" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-5" target="N-VXdCK7WpnAZVzeiWxV-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-5" value="OCC三角网格生成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-7" target="N-VXdCK7WpnAZVzeiWxV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-7" value="三角网格" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-11" target="N-VXdCK7WpnAZVzeiWxV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-11" target="N-VXdCK7WpnAZVzeiWxV-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-11" value="是否手动添加奇异点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="610" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-13" target="N-VXdCK7WpnAZVzeiWxV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-13" value="CCG算法模型模块" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-15" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="374" y="620" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N-VXdCK7WpnAZVzeiWxV-16" target="N-VXdCK7WpnAZVzeiWxV-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="730" />
+              <mxPoint x="480" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-16" value="奇异点添加模块" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-18" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="690" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N-VXdCK7WpnAZVzeiWxV-20" value="程序输出：&lt;div&gt;全局一致且连续的&lt;/div&gt;&lt;div&gt;NURBS曲面&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="770" width="180" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
