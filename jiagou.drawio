@@ -1,26 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T05:35:16.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="EDlB6ObhJBAJ3gTmHy6J" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T06:05:49.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="st_nfLY19Yk9ZkSPPXZQ" version="24.4.0" type="github">
   <diagram name="第 1 页" id="4e1_gTZCf4V-DGfyovcc">
     <mxGraphModel dx="1379" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RhiwDtoEUJxYBVWu5SQG-1" value="接口层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-7" value="基于子虔平台基础架构" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#a4a4a4;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="600" width="610" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="RhiwDtoEUJxYBVWu5SQG-2" value="算&lt;div style=&quot;font-size: 20px;&quot;&gt;法&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;模&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;块&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;核&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;心&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;层&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="120" height="310" as="geometry" />
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-1" value="接口层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fontColor=#FF0000;fillColor=#a7a4a3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RhiwDtoEUJxYBVWu5SQG-4" value="基础&lt;div&gt;架构层&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="570" width="120" height="60" as="geometry" />
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-2" value="算&lt;div style=&quot;font-size: 20px;&quot;&gt;法&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;模&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;块&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;核&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;心&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;层&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;labelBorderColor=none;fontColor=#FF0000;fillColor=#b3c8e7;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="RhiwDtoEUJxYBVWu5SQG-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="160" width="610" height="60" as="geometry" />
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-4" value="基础&lt;div&gt;架构层&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontStyle=1;fontColor=#FF0000;fillColor=#a4a4a4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="RhiwDtoEUJxYBVWu5SQG-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="240" width="610" height="310" as="geometry" />
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a7a4a3;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="610" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RhiwDtoEUJxYBVWu5SQG-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="570" width="610" height="60" as="geometry" />
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b3c8e7;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="610" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-8" value="数据文件接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-9" value="API接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="395" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-10" value="面向上下游接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhiwDtoEUJxYBVWu5SQG-11" target="RhiwDtoEUJxYBVWu5SQG-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhiwDtoEUJxYBVWu5SQG-11" target="RhiwDtoEUJxYBVWu5SQG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-11" value="三角形网格生成模块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontColor=#FF0000;fontStyle=0;fillColor=#f8c9b1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="170" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-12" value="统一数据结构规范" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="190" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-14" value="统一输入输出接口" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="395" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-15" value="统一脚本调用规范" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-16" value="样条曲面生成模块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontColor=#FF0000;fillColor=#f8c9b1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="570" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhiwDtoEUJxYBVWu5SQG-17" target="RhiwDtoEUJxYBVWu5SQG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-17" value="手动奇异点添加模块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontColor=#FF0000;fillColor=#f8c9b1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RhiwDtoEUJxYBVWu5SQG-18" target="RhiwDtoEUJxYBVWu5SQG-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RhiwDtoEUJxYBVWu5SQG-18" value="自动奇异点添加模块" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=16;fontColor=#FF0000;fillColor=#f8c9b1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="280" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
